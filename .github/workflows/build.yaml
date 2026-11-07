@@ -27,7 +27,7 @@ jobs:
 
     # Explicitly pass a valid Dart package name to satisfy the validator
     - name: Create Android Scaffolding
-      run: flutter create --platforms=android --project-name=KalKulator . --org com.dev-saifan.Kalk
+      run: flutter create --platforms=android --project-name=kalkulator . --org com.dev-saifan.Kalk
 
     - name: Install Dependencies
       run: flutter pub get
